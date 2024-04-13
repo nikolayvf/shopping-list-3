@@ -1,5 +1,4 @@
-Workflow:
-```name: exam-nikolayvf CI/CD workflow
+name: exam-nikolayvf CI/CD workflow
 
 on:
   push:
@@ -51,4 +50,4 @@ jobs:
       - name: Install Playwright
         run: npx playwright install
       - name: Run the ui tests
-        run: npm run test:ui```
+        run: npm run test:ui
